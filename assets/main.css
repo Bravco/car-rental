@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --color-primary: #00C3FB;
+    --color-accent: #28FF7E;
+    --color-text: #052934;
+    --color-text-alt: #C0C9CC;
+    --color-bg-primary: white;
+    --color-bg-secondary: #ECF1F9;
+    --content-padding: 10%;
+}
+
+body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+button, a {
+    transition: opacity 200ms;
+}
+
+button:hover, a:hover {
+    opacity: .5;
+}
+
+.primary-btn {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: .75rem 1.5rem;
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: .25rem;
+}
