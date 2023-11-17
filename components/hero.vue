@@ -27,10 +27,7 @@
                         <Icon name="fa6-solid:location-dot"/>
                         <div class="info-item-content">
                             <span>Kde nás najdete</span>
-                            <span class="info-item-value">
-                                Poprad Tatry, letisko alebo<br>
-                                autobusová a vlaková stanica
-                            </span>
+                            <span class="info-item-value"> Poprad, Kežmarok, Spišská Nová Ves, Levoča</span>
                         </div>
                     </li>
                     <li class="info-item">

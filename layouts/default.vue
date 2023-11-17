@@ -65,13 +65,8 @@
                     <li>
                         <h4>Prevádzka</h4>
                     </li>
-                    <li>
-                        Otvorené 24/7
-                    </li>
-                    <li>
-                        Poprad Tatry, letisko<br>
-                        alebo autobusová a vlaková stanica
-                    </li>
+                    <li>Otvorené 24/7</li>
+                    <li>Poprad, Kežmarok, Spišská Nová Ves, Levoča</li>
                 </ul>
             </div>
         </footer>
