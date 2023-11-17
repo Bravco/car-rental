@@ -14,7 +14,7 @@
                         <NuxtLink to="#footer">Kontakt</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/">Podmienky</NuxtLink>
+                        <NuxtLink to="/podmienky">Podmienky</NuxtLink>
                     </li>
                 </ul>
                 <NuxtLink class="primary-btn" :to="{ path: '/', hash: '#form'}">
@@ -47,7 +47,7 @@
                         <NuxtLink to="#footer">Kontakt</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/">Podmienky</NuxtLink>
+                        <NuxtLink to="/podmienky">Podmienky</NuxtLink>
                     </li>
                 </ul>
                 <ul class="footer-list">
