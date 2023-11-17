@@ -20,7 +20,10 @@
                         <Icon name="fa6-solid:phone"/>
                         <div class="info-item-content">
                             <span>Zavolajte nám</span>
-                            <NuxtLink class="info-item-value" to="tel:+421907311206">+421 907 311 206</NuxtLink>
+                            <div>
+                                <NuxtLink class="info-item-value" to="tel:+421902441097">+421 902 441 097</NuxtLink><br>
+                                <NuxtLink class="info-item-value" to="tel:++421910467771">+421 910 467 771</NuxtLink>
+                            </div>
                         </div>
                     </li>
                     <li class="info-item">

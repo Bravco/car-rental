@@ -58,7 +58,8 @@
                         <NuxtLink to="mailto:info@easycar.sk">info@easycar.sk</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="tel:+421907311206">+421 907 311 206</NuxtLink>
+                        <NuxtLink to="tel:+421902441097">+421 902 441 097</NuxtLink><br>
+                        <NuxtLink to="tel:++421910467771">+421 910 467 771</NuxtLink>
                     </li>
                 </ul>
                 <ul class="footer-list">
