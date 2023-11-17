@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "nuxt-icon",
     "@invictus.codes/nuxt-vuetify",
+    "nuxt3-leaflet",
   ],
   css: [
     "@/assets/main.css",

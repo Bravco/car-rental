@@ -33,6 +33,20 @@
                         <Icon name="fa6-solid:bookmark"/>
                         Rezervovať online
                     </NuxtLink>
+                    <div class="map">
+                        <LMap
+                            :zoom="17"
+                            :center="[49.058401, 20.292107]"
+                        >
+                            <LTileLayer
+                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                attribution="&amp;copy; <a href=&quot;https://www.openstreetmap.org/&quot;>OpenStreetMap</a> contributors"
+                                layer-type="base"
+                                name="OpenStreetMap"
+                            />
+                            <LMarker :lat-lng="[49.058401, 20.292107]"/>
+                        </LMap>
+                    </div>
                 </div>
             </div>
         </section>
@@ -99,9 +113,18 @@
         gap: .5rem;
     }
 
+    .map {
+        width: 100%;
+        height: 100%;
+    }
+
     @media only screen and (max-width: 1280px) {
         .content {
             grid-template-columns: 1fr;
+        }
+
+        .map {
+            height: 14rem;
         }
     }
     
