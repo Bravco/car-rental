@@ -48,7 +48,7 @@
 
 <style scoped>
     section {
-        height: 100dvh;
+        min-height: 100dvh;
         padding: 0 var(--content-padding) 8rem var(--content-padding);
     }
 
@@ -61,5 +61,11 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .content {
+            grid-template-columns: 1fr;
+        }
     }
 </style>

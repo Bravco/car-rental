@@ -83,11 +83,19 @@
                                     </div>
                                     <div class="inputfield">
                                         <label for="startDate">Dátum od</label>
-                                        <input v-model="state.startDate" @input="v$.startDate.$touch" @blur="v$.startDate.$touch" name="startDate" id="startDate" type="datetime-local" required>
+                                        <input v-model="state.startDate" @input="v$.startDate.$touch" @blur="v$.startDate.$touch" name="startDate" id="startDate" type="date" required>
+                                    </div>
+                                    <div class="inputfield">
+                                        <label for="startTime">Čas od</label>
+                                        <input v-model="state.startTime" @input="v$.startTime.$touch" @blur="v$.startTime.$touch" name="startTime" id="startTime" type="time" required>
                                     </div>
                                     <div class="inputfield">
                                         <label for="endDate">Dátum do</label>
-                                        <input v-model="state.endDate" @input="v$.endDate.$touch" @blur="v$.endDate.$touch" name="endDate" id="endDate" type="datetime-local" required>
+                                        <input v-model="state.endDate" @input="v$.endDate.$touch" @blur="v$.endDate.$touch" name="endDate" id="endDate" type="date" required>
+                                    </div>
+                                    <div class="inputfield">
+                                        <label for="endTime">Čas do</label>
+                                        <input v-model="state.endTime" @input="v$.endTime.$touch" @blur="v$.endTime.$touch" name="endTime" id="endTime" type="time" required>
                                     </div>
                                     <div class="inputfield">
                                         <label for="pickupPoint">Miesto vyzdvihnutia</label>
@@ -193,7 +201,9 @@
 
     const initialState = {
         startDate: null,
+        startTime: null,
         endDate: null,
+        endTime: null,
         pickupPoint: null,
         dropoffPoint: null,
         firstName: null,
@@ -205,7 +215,9 @@
 
     const rules = {
         startDate: { required },
+        startTime: { required },
         endDate: { required },
+        endTime: { required },
         pickupPoint: { required },
         dropoffPoint: { required },
         firstName: { required },

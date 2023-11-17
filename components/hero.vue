@@ -58,7 +58,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 33.33%;
+        gap: 4rem;
     }
 
     .cta {

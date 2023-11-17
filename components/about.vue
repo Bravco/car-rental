@@ -5,19 +5,19 @@
                 <div class="features">
                     <div class="feature">
                         <NuxtImg class="feature-img" src="/img/stopwatch.webp" alt="stopwatch"/>
-                        <h3 class="feature-title"><span>Rýchle</span> požičanie.</h3>
+                        <h3 class="feature-title"><span>Rýchle</span> požičanie</h3>
                     </div>
                     <div class="feature">
                         <NuxtImg class="feature-img" src="/img/payment.webp" alt="payment"/>
-                        <h3 class="feature-title">Platba <span>na mieste</span>.</h3>
+                        <h3 class="feature-title">Platba <span>na mieste</span></h3>
                     </div>
                     <div class="feature">
                         <NuxtImg class="feature-img" src="/img/fuel.webp" alt="fuel"/>
-                        <h3 class="feature-title"><span>Plná</span> nádrž.</h3>
+                        <h3 class="feature-title"><span>Plná</span> nádrž</h3>
                     </div>
                     <div class="feature">
                         <NuxtImg class="feature-img" src="/img/highway.webp" alt="highway"/>
-                        <h3 class="feature-title"><span>Dialničná</span> známka.</h3>
+                        <h3 class="feature-title"><span>Dialničná</span> známka</h3>
                     </div>
                 </div>
                 <div class="main-content">
@@ -116,6 +116,7 @@
     .map {
         width: 100%;
         height: 100%;
+        z-index: 0;
     }
 
     @media only screen and (max-width: 1280px) {
