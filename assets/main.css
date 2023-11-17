@@ -17,9 +17,33 @@
     --content-padding: 10%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color-bg-primary);
     color: var(--color-text);
+}
+
+main {
+    margin-top: 6rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h1 span, h2 span, h3 span, h4 span {
+    color: var(--color-primary);
 }
 
 li {
@@ -46,14 +70,40 @@ button:hover, a:hover {
     opacity: .5;
 }
 
-.primary-btn {
+.primary-btn, .outline-btn {
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .5rem;
     padding: .75rem 1.5rem;
+    border-radius: .25rem;
+}
+
+.primary-btn {
     background-color: var(--color-primary);
     color: white;
-    border-radius: .25rem;
+}
+
+.outline-btn {
+    color: var(--color-text);
+    border: 2px solid var(--color-text);
+}
+
+@media only screen and (max-width: 768px) {
+    :root {
+        --content-padding: 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.25rem;
+    }
+    
+    h3 {
+        font-size: 1.25rem;
+    }
 }
