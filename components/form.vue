@@ -158,6 +158,8 @@
         priceList: number[],
     }
 
+    const mail = useMail();
+
     const steps = [
         "Vyber si auto",
         "Vyplni formulár",
@@ -246,6 +248,10 @@
         const valid = await v$.value.$validate();
         if (!valid) return;
         currentStep.value = 3;
+        mail.send({
+            subject: `Rezervácia - ${state.lastName} ${state.firstName}`,
+            text: "",
+        });
     }
 </script>
 

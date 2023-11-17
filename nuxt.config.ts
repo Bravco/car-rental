@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@invictus.codes/nuxt-vuetify",
     "nuxt3-leaflet",
+    "nuxt-mail",
   ],
   css: [
     "@/assets/main.css",
@@ -34,5 +35,17 @@ export default defineNuxtConfig({
   image: {
     provider: "netlify",
     netlify: process.env.IMAGES_URL,
+  },
+  mail: {
+    message: {
+      to: process.env.RECEIVER_MAIL,
+    },
+    smtp: {
+      host: "smtp.gmail.com",
+      auth: {
+        user: process.env.SENDER_MAIL,
+        pass: process.env.SENDER_MAIL_PASSWORD,
+      },
+    },
   },
 })
