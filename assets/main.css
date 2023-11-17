@@ -75,6 +75,7 @@ button:hover, a:hover {
 }
 
 .primary-btn, .outline-btn {
+    height: fit-content;
     width: fit-content;
     display: flex;
     justify-content: center;

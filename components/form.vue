@@ -112,10 +112,13 @@
                                             <Icon name="fa6-solid:arrow-left"/>
                                             Späť
                                         </button>
-                                        <button class="primary-btn" type="submit">
-                                            <Icon name="fa6-solid:envelope"/>
-                                            Poslať rezerváciu
-                                        </button>
+                                        <div>
+                                            <button class="primary-btn" type="submit">
+                                                <Icon name="fa6-solid:envelope"/>
+                                                Poslať rezerváciu
+                                            </button>
+                                            <span class="form-reminder">Platba na mieste.</span>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
@@ -361,6 +364,10 @@
         justify-content: space-between;
         grid-column: span 2;
         margin-top: 1rem;
+    }
+
+    .form-reminder {
+        color: var(--color-accent);
     }
 
     .success-wrapper {
