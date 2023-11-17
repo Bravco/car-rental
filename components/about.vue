@@ -48,7 +48,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
-        padding: 4rem var(--content-padding);
+        padding: 8rem var(--content-padding);
     }
 
     .features {
@@ -64,7 +64,7 @@
         justify-content: center;
         padding: 2rem;
         background-color: var(--color-bg-primary);
-        border: 1px solid var(--color-text-alt);
+        border: 2px solid var(--color-text-alt);
         border-radius: .5rem;
     }
 

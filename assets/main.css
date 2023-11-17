@@ -90,6 +90,10 @@ button:hover, a:hover {
     border: 2px solid var(--color-text);
 }
 
+.v-stepper-header {
+    box-shadow: none !important;
+}
+
 @media only screen and (max-width: 768px) {
     :root {
         --content-padding: 1rem;
