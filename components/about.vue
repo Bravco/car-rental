@@ -4,19 +4,19 @@
             <div class="content">
                 <div class="features">
                     <div class="feature">
-                        <NuxtImg class="feature-img" src="/img/stopwatch.webp"/>
+                        <NuxtImg class="feature-img" src="/img/stopwatch.webp" alt="stopwatch"/>
                         <h3 class="feature-title"><span>Rýchle</span> požičanie.</h3>
                     </div>
                     <div class="feature">
-                        <NuxtImg class="feature-img" src="/img/payment.webp"/>
+                        <NuxtImg class="feature-img" src="/img/payment.webp" alt="payment"/>
                         <h3 class="feature-title">Platba <span>na mieste</span>.</h3>
                     </div>
                     <div class="feature">
-                        <NuxtImg class="feature-img" src="/img/fuel.webp"/>
+                        <NuxtImg class="feature-img" src="/img/fuel.webp" alt="fuel"/>
                         <h3 class="feature-title"><span>Plná</span> nádrž.</h3>
                     </div>
                     <div class="feature">
-                        <NuxtImg class="feature-img" src="/img/highway.webp"/>
+                        <NuxtImg class="feature-img" src="/img/highway.webp" alt="highway"/>
                         <h3 class="feature-title"><span>Dialničná</span> známka.</h3>
                     </div>
                 </div>

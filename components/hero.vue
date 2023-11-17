@@ -42,7 +42,7 @@
                     </li>
                 </ul>
             </div>
-            <NuxtImg class="main-img" src="/img/hero.svg"/>
+            <NuxtImg class="main-img" src="/img/hero.svg" alt="car-rental"/>
         </section>
     </div>
 </template>

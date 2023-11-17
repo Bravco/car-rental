@@ -42,7 +42,7 @@
                         <div class="form-wrapper">
                             <div class="form-subwrapper">
                                 <div v-if="selectedCar !== null">
-                                    <NuxtImg class="car-img" :src="selectedCar.imgUrl"/>
+                                    <NuxtImg class="car-img" :src="selectedCar.imgUrl" alt="carr"/>
                                     <div>
                                         <h4 class="car-title">{{ selectedCar.title }}</h4>
                                         <ul class="car-features">
@@ -127,7 +127,7 @@
                     <template v-slot:item.3>
                         <div class="form-wrapper">
                             <div class="success-wrapper">
-                                <NuxtImg class="success-img" src="/img/hearts.webp"/>
+                                <NuxtImg class="success-img" src="/img/hearts.webp" alt="hearts"/>
                                 <h3>Vaša rezervácia bola úspešne odoslaná!</h3>
                                 <p>Budeme Vás kontaktovať pomocou emailu alebo telefonicky.</p>
                             </div>
