@@ -9,4 +9,8 @@ export default defineNuxtConfig({
   css: [
     "@/assets/main.css",
   ],
+  image: {
+    provider: "netlify",
+    netlify: process.env.IMAGES_URL,
+  },
 })
