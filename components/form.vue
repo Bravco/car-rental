@@ -10,7 +10,7 @@
                                 <li v-for="car in cars" :key="car.id" :class="['car', { discount: car.id === 3 }]">
                                     <NuxtImg class="car-img" :src="car.imgUrl"/>
                                     <div>
-                                        <h3 class="car-title">{{ car.title }}</h3>
+                                        <h4 class="car-title">{{ car.title }}</h4>
                                         <ul class="car-features">
                                             <li class="car-feature">
                                                 <Icon name="fa6-solid:circle-check"/>
@@ -97,7 +97,7 @@
         },
     ];
 
-    const currentStep = ref<number>(3);
+    const currentStep = ref<number>(1);
     const selectedCar = ref<Car | null>(null);
 
     function selectCar(car : Car) {
@@ -116,7 +116,7 @@
     }
 
     .form-wrapper {
-        height: 42rem;
+        min-height: 42rem;
         padding: 2rem;
         border: 2px solid var(--color-text-alt);
         border-radius: .5rem;
@@ -150,7 +150,6 @@
     }
 
     .car-title {
-        font-size: 1.5rem;
         text-transform: uppercase;
     }
 
@@ -198,10 +197,23 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
     .success-img {
-        width: 8rem;
+        width: 6rem;
         margin-bottom: 2rem;
+    }
+    
+    @media only screen and (max-width: 1600px) {
+        .car-list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .car-list {
+            grid-template-columns: 1fr;
+        }
     }
 </style>

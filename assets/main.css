@@ -42,6 +42,10 @@ h3 {
     font-size: 1.75rem;
 }
 
+h4 {
+    font-size: 1.25rem;
+}
+
 h1 span, h2 span, h3 span, h4 span {
     color: var(--color-primary);
 }
@@ -109,5 +113,9 @@ button:hover, a:hover {
     
     h3 {
         font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1rem;
     }
 }
