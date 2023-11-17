@@ -2,21 +2,22 @@
     <div>
         <header>
             <nav>
-                <NuxtLink :to="{ path: '/', hash: '#hero'}">
-                    <NuxtImg src="/img/logo.webp"/>
-                </NuxtLink>
+                <Logo/>
                 <ul class="nav-list">
                     <li>
                         <NuxtLink :to="{ path: '/', hash: '#hero'}">Domov</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/">Kontakt</NuxtLink>
-                    </li>
-                    <li>
                         <NuxtLink :to="{ path: '/', hash: '#about'}">O nás</NuxtLink>
                     </li>
+                    <li>
+                        <NuxtLink to="#footer">Kontakt</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/">Podmienky</NuxtLink>
+                    </li>
                 </ul>
-                <NuxtLink class="primary-btn" to="/">
+                <NuxtLink class="primary-btn" :to="{ path: '/', hash: '#form'}">
                     <Icon name="fa6-solid:bookmark"/>
                     Rezervovať
                 </NuxtLink>
@@ -25,7 +26,55 @@
         <main>
             <slot/>
         </main>
-        <footer></footer>
+        <footer id="footer">
+            <div>
+                <Logo/>
+                <p class="footer-copyright">Copyright &copy; 2023</p>
+                <p>Vytvoril <NuxtLink to="https://ahamracek.netlify.app" target="_blank"><b>Andrej Hamráček</b></NuxtLink></p>
+            </div>
+            <div class="footer-content">
+                <ul class="footer-list">
+                    <li>
+                        <h4>Navigácia</h4>
+                    </li>
+                    <li>
+                        <NuxtLink :to="{ path: '/', hash: '#hero'}">Domov</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink :to="{ path: '/', hash: '#about'}">O nás</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="#footer">Kontakt</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/">Podmienky</NuxtLink>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <h4>Kontakt</h4>
+                    </li>
+                    <li>
+                        <NuxtLink to="mailto:info@easycar.sk">info@easycar.sk</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="tel:+421907311206">+421 907 311 206</NuxtLink>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <h4>Prevádzka</h4>
+                    </li>
+                    <li>
+                        Otvorené 24/7
+                    </li>
+                    <li>
+                        Poprad Tatry, letisko<br>
+                        alebo autobusová a vlaková stanica
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </template>
 
@@ -49,6 +98,42 @@
         justify-content: center;
         gap: 2rem;
         font-weight: 500;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 4rem var(--content-padding);
+        background-color: var(--color-bg-secondary);
+    }
+
+    .footer-copyright {
+        margin: 1rem 0 .5rem 0;
+        font-size: 1.25rem;
+    }
+
+    .footer-content {
+        display: flex;
+        gap: 8rem;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    @media only screen and (max-width: 768px) {
+        footer {
+            flex-direction: column;
+            gap: 4rem;
+        }
+
+        .footer-content {
+            flex-direction: column;
+            gap: 2rem;
+        }
     }
 
     @media only screen and (max-width: 576px) {

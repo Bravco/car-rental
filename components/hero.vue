@@ -5,11 +5,11 @@
                 <div>
                     <h1><span>Najlacnejšia</span> autopožičovňa</h1>
                     <div class="cta">
-                        <NuxtLink class="primary-btn" to="/">
+                        <NuxtLink class="primary-btn" :to="{ path: '/', hash: '#form'}">
                             <Icon name="fa6-solid:bookmark"/>
                             Rezervovať online
                         </NuxtLink>
-                        <NuxtLink class="outline-btn" to="/">
+                        <NuxtLink class="outline-btn" :to="{ path: '/', hash: '#about'}">
                             Prečo my
                             <Icon name="fa6-solid:arrow-turn-down"/>
                         </NuxtLink>
@@ -20,7 +20,7 @@
                         <Icon name="fa6-solid:phone"/>
                         <div class="info-item-content">
                             <span>Zavolajte nám</span>
-                            <span class="info-item-value">+421 907 311 206</span>
+                            <NuxtLink class="info-item-value" to="tel:+421907311206">+421 907 311 206</NuxtLink>
                         </div>
                     </li>
                     <li class="info-item">

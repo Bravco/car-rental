@@ -29,7 +29,7 @@
                         <li><Icon name="fa6-solid:check"/>Transparentnosť a férovosť</li>
                         <li><Icon name="fa6-solid:check"/>Spoľahlivosť</li>
                     </ul>
-                    <NuxtLink class="primary-btn" to="/">
+                    <NuxtLink class="primary-btn" :to="{ path: '/', hash: '#form'}">
                         <Icon name="fa6-solid:bookmark"/>
                         Rezervovať online
                     </NuxtLink>
