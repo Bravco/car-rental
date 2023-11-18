@@ -30,7 +30,7 @@
             <div>
                 <Logo/>
                 <p class="footer-copyright">Copyright &copy; 2023</p>
-                <p>Vytvoril <NuxtLink to="https://ahamracek.netlify.app" target="_blank"><b>Andrej Hamráček</b></NuxtLink></p>
+                <p>Vytvoril <NuxtLink to="https://hamracek.dev" target="_blank"><b>Andrej Hamráček</b></NuxtLink></p>
             </div>
             <div class="footer-content">
                 <ul class="footer-list">
