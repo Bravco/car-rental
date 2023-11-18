@@ -250,7 +250,17 @@
         currentStep.value = 3;
         mail.send({
             subject: `Rezervácia - ${state.lastName} ${state.firstName}`,
-            text: "",
+            text:
+`
+Meno: ${state.firstName}
+Priezvisko: ${state.lastName}
+Email: ${state.email}
+Telefón: ${state.phone}
+Čas od: ${new Date(state.startDate ?? "").toLocaleDateString()} ${state.startTime}
+Čas do: ${new Date(state.endDate ?? "").toLocaleDateString()} ${state.endTime}
+Miesto vyzdvihnutia: ${state.pickupPoint}
+Miesto odovzdania: ${state.dropoffPoint}
+`,
         });
     }
 </script>
@@ -365,6 +375,7 @@
     }
 
     .inputfield input, .inputfield select {
+        width: 100%;
         padding: .5rem;
         border: 2px solid var(--color-text-alt);
         border-radius: .25rem;
