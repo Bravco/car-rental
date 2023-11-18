@@ -13,11 +13,11 @@
                                         <h4 class="car-title">{{ car.title }}</h4>
                                         <ul class="car-features">
                                             <li class="car-feature">
-                                                <Icon name="fa6-solid:circle-check"/>
+                                                <v-icon icon="mdi-check-circle" size="small"/>
                                                 <span>Manuál</span>
                                             </li>
                                             <li class="car-feature">
-                                                <Icon name="fa6-solid:circle-check"/>
+                                                <v-icon icon="mdi-check-circle" size="small"/>
                                                 <span>Benzín</span>
                                             </li>
                                         </ul>
@@ -42,16 +42,16 @@
                         <div class="form-wrapper">
                             <div class="form-subwrapper">
                                 <div v-if="selectedCar !== null">
-                                    <NuxtImg class="car-img" :src="selectedCar.imgUrl" alt="carr"/>
+                                    <NuxtImg class="car-img" :src="selectedCar.imgUrl" alt="car"/>
                                     <div>
                                         <h4 class="car-title">{{ selectedCar.title }}</h4>
                                         <ul class="car-features">
                                             <li class="car-feature">
-                                                <Icon name="fa6-solid:circle-check"/>
+                                                <v-icon icon="mdi-check-circle" size="small"/>
                                                 <span>Manuál</span>
                                             </li>
                                             <li class="car-feature">
-                                                <Icon name="fa6-solid:circle-check"/>
+                                                <v-icon icon="mdi-check-circle" size="small"/>
                                                 <span>Benzín</span>
                                             </li>
                                         </ul>
