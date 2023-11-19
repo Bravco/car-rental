@@ -22,7 +22,7 @@
                 </div>
                 <div class="main-content">
                     <h2>Prečo <span>my</span>?</h2>
-                    <p>Autopožičovňa EasyCar.sk bola založená s cieľom zlepšiť poskytovanie služieb v oblasti prenájmu áut a ponúkať prvotriedny servis svojim klientom.</p>
+                    <p>Najlacnejšia Autopožičovňa bola založená s cieľom zlepšiť poskytovanie služieb v oblasti prenájmu áut a ponúkať prvotriedny servis svojim klientom.</p>
                     <ul class="main-features">
                         <li><Icon name="fa6-solid:check"/>Spokojnosť zákaznika</li>
                         <li><Icon name="fa6-solid:check"/>Kvalita vozidiel</li>

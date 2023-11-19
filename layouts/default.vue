@@ -55,7 +55,7 @@
                         <h4>Kontakt</h4>
                     </li>
                     <li>
-                        <NuxtLink to="mailto:info@easycar.sk">info@easycar.sk</NuxtLink>
+                        <NuxtLink to="mailto:najlacnejsia.autopozicovna@gmail.com">najlacnejsia.autopozicovna@gmail.com</NuxtLink>
                     </li>
                     <li>
                         <NuxtLink to="tel:+421902441097">+421 902 441 097</NuxtLink><br>
