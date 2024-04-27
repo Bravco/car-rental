@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@invictus.codes/nuxt-vuetify",
     "nuxt3-leaflet",
     "nuxt-mail",
+    "nuxt-gtag",
   ],
   css: [
     "@/assets/main.css",
@@ -47,5 +48,8 @@ export default defineNuxtConfig({
         pass: process.env.SENDER_MAIL_PASSWORD,
       },
     },
+  },
+  gtag: {
+    id: "G-653E5SRKV3",
   },
 })
