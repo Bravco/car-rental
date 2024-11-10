@@ -21,8 +21,8 @@
                         <div class="info-item-content">
                             <span>Zavolajte nám</span>
                             <div>
-                                <NuxtLink class="info-item-value" to="tel:+421902441097">+421 902 441 097</NuxtLink><br>
-                                <NuxtLink class="info-item-value" to="tel:++421910467771">+421 910 467 771</NuxtLink>
+                                <NuxtLink class="info-item-value" to="tel:+421911986461">+421 911 986 461</NuxtLink><br>
+                                <NuxtLink class="info-item-value" to="tel:++421903035553">+421 903 035 553</NuxtLink>
                             </div>
                         </div>
                     </li>
@@ -30,7 +30,7 @@
                         <Icon name="fa6-solid:location-dot"/>
                         <div class="info-item-content">
                             <span>Kde nás najdete</span>
-                            <span class="info-item-value"> Poprad, Kežmarok, Spišská Nová Ves, Levoča</span>
+                            <span class="info-item-value"> Svit, Poprad, Kežmarok, <br>Spišská Nová Ves, Levoča</span>
                         </div>
                     </li>
                     <li class="info-item">

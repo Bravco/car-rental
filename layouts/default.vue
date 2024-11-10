@@ -29,7 +29,7 @@
         <footer id="footer">
             <div>
                 <Logo/>
-                <p class="footer-copyright">Copyright &copy; 2023</p>
+                <p class="footer-copyright">Copyright &copy; {{ new Date().getFullYear() }}</p>
                 <p>Vytvoril <NuxtLink to="https://hamracek.dev" target="_blank"><b>Andrej Hamráček</b></NuxtLink></p>
             </div>
             <div class="footer-content">
@@ -58,8 +58,8 @@
                         <NuxtLink to="mailto:najlacnejsia.autopozicovna@gmail.com">najlacnejsia.autopozicovna@gmail.com</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="tel:+421902441097">+421 902 441 097</NuxtLink><br>
-                        <NuxtLink to="tel:++421910467771">+421 910 467 771</NuxtLink>
+                        <NuxtLink to="tel:+421911986461">+421 911 986 461</NuxtLink><br>
+                        <NuxtLink to="tel:++421903035553">+421 903 035 553</NuxtLink>
                     </li>
                 </ul>
                 <ul class="footer-list">
@@ -106,7 +106,6 @@
 
     .footer-copyright {
         margin: 1rem 0 .5rem 0;
-        font-size: 1.25rem;
     }
 
     .footer-content {

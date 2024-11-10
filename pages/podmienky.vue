@@ -15,7 +15,7 @@
                 </li>
                 <ul>
                     <h4>Ako si prenajať auto? Ponúkame Vám 3 spôsoby rezervácie.</h4>
-                    <li>Telefonicky na čísle +421 902 441 097 alebo +421 910 467 771.</li>
+                    <li>Telefonicky na čísle +421 911 986 461 alebo +421 903 035 553.</li>
                     <li>Vyplnením rezervačného formuláru na stránke.</li>
                     <li>Mailom na: najlacnejsia.autopozicovna@gmail.com</li>
                     <li>Je to jednoduché, stačí si vybrať auto, dohodnúť termín rezervácie a miesto pristavenia auta. Sme Vám k dispozícií 24 hodín denne.</li>
