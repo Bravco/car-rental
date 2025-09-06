@@ -37,10 +37,6 @@
                     <li><b>PONDELOK – NEDEĽA 24/7</b></li>
                     <li>Čakacia doba na zákazníka sa objednáva na presnú hodinu. V prípade Vášho meškania akceptujeme 1 hod meškanie bez extra poplatku. Následne bude účtované 7 Eur/hod. Ak vzniknuté meškanie nie je Vašim zavinením, všetky poplatky si môžete uplatniť u danej spoločnosti, ktorá Vás mala dopraviť na dohodnuté miesto. (letisková, autobusová, vlaková preprava).</li>
                 </ul>
-                <ul>
-                    <h4>Víkendový prenájom od Najlacnejšej Autopožičovňe</h4>
-                    <li>Víkendový prenájom znamená, že auto si prenajmete, ktorúkoľvek hodinu v piatok od 7:00 hod – 20:00 hod. Auto si prenajímate na víkend t.j. 3 dni do pondelka, platíte za cenu 2 dní. V pondelok je potrebné auto vrátiť počas otváracích hodín Najlacnejšej Autopožičovňe, od 7:00 hod – 20:00 hod.</li>
-                </ul>
             </ul>
         </section>
     </div>
